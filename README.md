@@ -181,6 +181,10 @@ device list reports them (a Vulkan, ROCm or SYCL build; on Linux, AMD sysfs befo
 installed), without utilization or temperature. Not yet tested on real AMD/Intel hardware. Building from source also needs Git, CMake, Ninja and
 a C++ compiler, which the Setup tab can install where a package manager allows.
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/LlamaForge/)
+
 ## How it works
 
 LlamaForge contains no llama.cpp code. A pure-stdlib Python backend drives llama.cpp's own
